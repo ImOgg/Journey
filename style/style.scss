@@ -212,18 +212,19 @@ $border-radius: 10px;
     }
   }
   .section3 {
+    display: block;
     .left,
     .right {
-      width: 50%;
+      width: 100%;
     }
     .left {
-      width: 40%;
+      // width: 40%;
       .pbbtn {
         display: none;
       }
     }
     .right {
-      width: 60%;
+      // width: 60%;
     }
   }
 }

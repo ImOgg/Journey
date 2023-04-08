@@ -181,18 +181,15 @@ img {
   .section2 ul {
     width: 90%;
   }
+  .section3 {
+    display: block;
+  }
   .section3 .left,
   .section3 .right {
-    width: 50%;
-  }
-  .section3 .left {
-    width: 40%;
+    width: 100%;
   }
   .section3 .left .pbbtn {
     display: none;
-  }
-  .section3 .right {
-    width: 60%;
   }
 }
 @media screen and (max-width: 414px) {
