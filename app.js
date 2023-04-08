@@ -1,5 +1,5 @@
 gsap.to(".typing1", {
-    text: "真的好想去日本玩= =", //text屬性將自動為DOM元素嵌入我們所輸入的文字
+    text: "真的好想去出國玩= =", //text屬性將自動為DOM元素嵌入我們所輸入的文字
     duration: 1.5,
     scrollTrigger: {
               trigger: ".typing1",
@@ -21,28 +21,28 @@ gsap.to(".typing1", {
     }
   );
 
-
   var swiper = new Swiper(".mySwiper", {
-    
+    slidesPerView: 3,
+    spaceBetween: 30,
     keyboard: {
-      enabled: true,
-    },
-    navigation: {
-      nextEl: ".button-next",
-      prevEl: ".button-prev",
-    },
+          enabled: true,
+        },
+       navigation: {
+        nextEl: ".backbtn",
+        prevEl: ".prvbtn",
+      },
     breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      },
-   }
+          1: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          },
+       }
   });
