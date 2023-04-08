@@ -25,6 +25,7 @@ var swiper = new Swiper(".mySwiper", {
   keyboard: {
     enabled: true,
   },
+  loop: true,
   navigation: {
     nextEl: ".circle_right",
     prevEl: ".circle_left",
@@ -40,3 +41,22 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+var swiper = new Swiper(".mySwiper2", {
+  loop: true,
+  navigation: {
+    nextEl: ".double_arrow_right",
+    prevEl: ".double_arrow_left",
+  },
+  breakpoints: {
+    414: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});
+
