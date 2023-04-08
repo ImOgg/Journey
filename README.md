@@ -1,9 +1,11 @@
 ## 這是一個旅遊網站
 
 ### 目前使用到的工具
-Html CSS(SCSS) Javascript(gsap swiper) 
+Html CSS(SCSS) Javascript(gsap swiper) googlefont google icon  
 
 ### 目前規劃
+
+只做 414 768 1920正常能顯示的尺寸
 ```
 首頁
     Header

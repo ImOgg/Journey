@@ -28,15 +28,15 @@ gsap.to(".typing1", {
           enabled: true,
         },
        navigation: {
-        nextEl: ".backbtn",
-        prevEl: ".prvbtn",
+        nextEl: ".circle_right",
+        prevEl: ".circle_left",
       },
     breakpoints: {
           1: {
             slidesPerView: 1,
             spaceBetween: 30
           },
-          768: {
+          414: {
             slidesPerView: 2,
             spaceBetween: 30
           },
