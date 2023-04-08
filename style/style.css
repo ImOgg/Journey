@@ -243,6 +243,16 @@ img {
   letter-spacing: 2px;
 }
 
+@media screen and (max-width: 1440px) {
+  .header,
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
 @media screen and (max-width: 768px) {
   .section2 ul {
     width: 90%;
@@ -255,6 +265,9 @@ img {
     width: 100%;
   }
   .section3 .left .pbbtn {
+    display: none;
+  }
+  .material-symbols-outlined {
     display: none;
   }
 }

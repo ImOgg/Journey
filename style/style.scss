@@ -252,14 +252,13 @@ $border-radius: 10px;
     color: $main-color;
     text-shadow: $text-color;
     &:hover {
-      
     }
   }
   .double_arrow_left {
     left: 0%;
   }
   .double_arrow_right {
-    right:0%;
+    right: 0%;
   }
 }
 
@@ -275,6 +274,16 @@ $border-radius: 10px;
     p {
       letter-spacing: 2px;
     }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .header,
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 
@@ -295,6 +304,9 @@ $border-radius: 10px;
         display: none;
       }
     }
+  }
+  .material-symbols-outlined {
+    display: none;
   }
 }
 
